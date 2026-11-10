@@ -1,35 +1,74 @@
-<!DOCTYPE html> <!-- Especifica o tipo de Documento-->
-<html lang="pt-BR">
-    <head>
-        <title>EduTech - Formação em Tecnologia</title>
-        <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
-        <meta name="viewport" content="width=device,width,initial-scale=1.0">
-        <!--Aplica responsividade no site - adapta pra telas menores-->
-    </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
+<!DOCTYPE html> <!-- Especifica o Tipo de Documento - HTML5 -->
+<html Lang="PT-BR">
+    <head>  <!-- Cabeça do Site - Configurações e metadados -->
+        <title>Edu-Tech Formação em Tecnologia</title>
+        <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="../CSS/style.css">
 
-    <body>
-     <header>
-            <div>
-                <a href="index.html" >Edu<span>Tech</span></a>
-                </div>
-            
-            <nav>]
-                <a href="index.html">Inicio</a>
-                <a href="sobre.html">Sobre</a>
+    <body> <!-- Corpo do Site - Conteúdo visível -->
+
+        <header class="topo"> <!--Cabeçalho do site-->
+
+            <div class="logo">   
+                <a href="../index.html">Edu<span>Tech</span></a>
+            </div>
+
+            <nav class="menu">
+                <a href="../index.html">Início</a>
                 <a href="cursos.html">Cursos</a>
-                <a href="contato.html">Contato</a>
+                <a href="sobre.html">Sobre</a> 
+                <a href="contato.html">Contato</a>     
+                <a href="login.html">Login</a> 
+                <a href="cadastro.html">Cadastro</a>        
             </nav>
 
-     </header>
+        </header>
 
-      <!--CONTEUDO DA PAGINA DO SITE-->
+        <!-- Conteudo da Pagina do Site-->
 
-     <footer> <!--RODAPE DO CORPO DO SITE-->
-        <p>©2026 EduTech. Todos os direitos reservados
-        <p><a href="contato.html">Entre em contato</a></p>
-     </footer>
+        <main>
+              <!-- Seção dos cursos -->
+              <section>
+                    <h2>Nossos Cursos</h2>
 
-    </body> <!--CORPO DO SITE - CONTEUDO VISIVEL PARA TODOS-->
-       
+                    <!-- CARDS DOS CURSOS -->
+                     <article class="cursos">
+                        <img src="../IMAGES/informatica web.jpg" alt="Desenvolvimento WEB">
+                        <h3>Desenvolvimento WEB</h3>
+                        <p>Aprenda HTML, CSS, JS e práticas modernas
+                            de desenvolvimento.
+                        </p>
+                        <strong>CH:</strong> 40h
+                     </article>
+
+                     <article class="cursos">
+                        <img src="../IMAGES/Informatoca basica.jpg web.jpg" alt="Informática Básica">
+                        <h3>Informática Básica</h3>
+                        <p>Domine o uso do computador e aplicativos essenciais
+                        </p>
+                        <strong>CH:</strong> 30h
+                     </article>
+
+                     <article class="cursos">
+                        <img src="../IMAGES/curso jpgps dogotais.jpg" alt="Jogos Digitais">
+                        <h3>Jogos Digitais</h3>
+                        <p>Aprenda a desenvolver jogos digitais desde o design até a programação.
+                        </p>
+                        <strong>CH:</strong> 60h
+                     </article>
+              </section>
+            
+        </main>
+
+        <footer> <!-- Rodapé do site -->
+
+            <p>© 2026 Edu-Tech. Todos os direitos reservados.</p>
+            <p><a href="contato.html">Contato</a>  Entre em contato.</p>
+
+        </footer>
+
+
+    </body>
 
 </html>

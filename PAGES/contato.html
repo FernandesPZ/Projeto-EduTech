@@ -5,24 +5,47 @@
         <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width=device,width,initial-scale=1.0">
         <!--Aplica responsividade no site - adapta pra telas menores-->
+        <link rel="stylesheet" href="../CSS/style.css">
     </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
 
     <body>
      <header>
             <div>
-                <a href="index.html" >Edu<span>Tech</span></a>
+                <a href="../index.html" class="logo" >Edu<span>Tech</span></a>
                 </div>
             
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="sobre.html">Sobre</a>
+             <nav class="menu">
+                <a href="../index.html">Início</a>
                 <a href="cursos.html">Cursos</a>
-                <a href="contato.html">Contato</a>
+                <a href="sobre.html">Sobre</a> 
+                <a href="contato.html">Contato</a>     
+                <a href="login.html">Login</a> 
+                <a href="cadastros.html">Cadastro</a>        
             </nav>
 
      </header>
 
       <!--CONTEUDO DA PAGINA DO SITE-->
+      <main>
+            <section id="containerFormContato">
+                <h1>Fale com a EduTech</h1>
+                <p>Tem duvidas sobre nossos cursos? Escreva sua mensagem</p>
+                <form id="formContato">
+                    <label>Nome completo</label>
+                    <input id="nomeContato" type="text" required>
+                    <br>
+
+                    <label for="emailContato">E-mail</label>
+                    <input id="emailContato" type="email" required>
+                    <br>
+
+                    <label for="mensagemContato">Mensagem</label>
+                    <textarea id="mensagemContato" rows="5"  minlength="50"></textarea>
+                    <br>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </section>
+      </main>
 
      <footer> <!--RODAPE DO CORPO DO SITE-->
         <p>©2026 EduTech. Todos os direitos reservados
@@ -31,5 +54,4 @@
 
     </body> <!--CORPO DO SITE - CONTEUDO VISIVEL PARA TODOS-->
        
-
 </html>

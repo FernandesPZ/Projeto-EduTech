@@ -1,35 +1,73 @@
-<!DOCTYPE html> <!-- Especifica o tipo de Documento-->
-<html lang="pt-BR">
-    <head>
-        <title>EduTech - Formação em Tecnologia</title>
-        <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
-        <meta name="viewport" content="width=device,width,initial-scale=1.0">
-        <!--Aplica responsividade no site - adapta pra telas menores-->
-    </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
+<!DOCTYPE html> <!-- Especifica o Tipo de Documento - HTML5 -->
+<html Lang="PT-BR">
+    <head>  <!-- Cabeça do Site - Configurações e metadados -->
+        <title>Edu-Tech Formação em Tecnologia</title>
+        <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="CSS/style.css">
+    </head>    
 
-    <body>
-     <header>
-            <div>
-                <a href="index.html" >Edu<span>Tech</span></a>
-                </div>
-            
-            <nav>]
-                <a href="/index.html">Inicio</a>
-                <a href="pages/sobre.html">Sobre</a>
-                <a href="pages/cursos.html">Cursos</a>
-                <a href="pages/contato.html">Contato</a>
+    <body> <!-- Corpo do Site - Conteúdo visível -->
+
+        <header class="topo">
+
+            <div class="logo">   
+                <a href="index.html">Edu<span>Tech</span></a>
+            </div>
+
+            <nav class="menu" >
+                <a href="index.html">Início</a>
+                <a href="PAGES/cursos.html">Cursos</a>
+                <a href="PAGES/sobre.html">Sobre</a> 
+                <a href="PAGES/contato.html">Contato</a>              
+                <a href="PAGES/login.html">Login</a> 
+                <a href="PAGES/cadastros.html">Cadastro</a>
             </nav>
 
-     </header>
-
-      <!--CONTEUDO DA PAGINA DO SITE-->
-
-     <footer> <!--RODAPE DO CORPO DO SITE-->
-        <p>©2026 EduTech. Todos os direitos reservados
-        <p><a href="contato.html">Entre em contato</a></p>
-     </footer>
-
-    </body> <!--CORPO DO SITE - CONTEUDO VISIVEL PARA TODOS-->
+        </header>
        
+       <main>
+              <section class="hero">
+                        <div class="hero-content">
+                            <h1>Formação em Tecnologia para o mercado real</h1>
+                            <p>Aprenda desenvolvimento web, lógica e banco de dados com aulas práticas</p>
+                            <a href="pages/cursos.html" class="btn-primario">Ver Cursos</a>
+                            <a href="pages/contato.html" class="btn-secundario">Fale Conosco</a>
+                        </div>   
+              </section> 
+              
+              <section class="destaques">
+                    <div class="container">
+                        <h2>Por que estudar na EduTech?</h2>
+                        <div class="cards">
+                            <article class="card">
+                                <h3>Projetos Reais</h3>
+                                <p>Você desenvolve sites com base em situações profissionais</p>
+                            </article>
+
+                            <article class="card">
+                                <h3>Material Didático</h3>
+                                <p>Conteúdo e exercícios práticas</p>
+                            </article>
+
+                            <article class="card">
+                                <h3>Suporte do instrutor</h3>
+                                <p>Acompanhamento durante todo processo</p>
+                            </article>
+                        </div>
+                    </div>
+              </section> 
+
+        </main>
+
+        <footer class="rodape"> <!-- Rodapé do site -->
+
+            <p>© 2026 Edu-Tech. Todos os direitos reservados.</p>
+            <p><a class="btn-secundario" href="pages/contato.html">Contato</a>  Entre em contato.</p>
+
+        </footer>
+
+
+    </body>
 
 </html>

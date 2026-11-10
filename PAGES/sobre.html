@@ -1,35 +1,65 @@
-<!DOCTYPE html> <!-- Especifica o tipo de Documento-->
-<html lang="pt-BR">
-    <head>
-        <title>EduTech - Formação em Tecnologia</title>
-        <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
-        <meta name="viewport" content="width=device,width,initial-scale=1.0">
-        <!--Aplica responsividade no site - adapta pra telas menores-->
-    </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
+<!DOCTYPE html> <!-- Especifica o Tipo de Documento - HTML5 -->
+<html Lang="PT-BR">
+    <head>  <!-- Cabeça do Site - Configurações e metadados -->
+        <title>Edu-Tech Formação em Tecnologia</title>
+        <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        
+    </head>    
 
-    <body>
-     <header>
-            <div>
-                <a href="index.html" >Edu<span>Tech</span></a>
-                </div>
-            
-            <nav>]
-                <a href="../index.html">Inicio</a>
-                <a href="sobre.html">Sobre</a>
+    <body> <!-- Corpo do Site - Conteúdo visível -->
+
+        <header class="topo"> <!--Cabeçalho do site-->
+
+            <div class="logo">   
+                <a href="../index.html">Edu<span>Tech</span></a>
+            </div>
+
+            <nav class="menu">
+                <a href="../index.html">Início</a>
                 <a href="cursos.html">Cursos</a>
-                <a href="contato.html">Contato</a>
+                <a href="sobre.html">Sobre</a> 
+                <a href="contato.html">Contato</a>            
+                <a href="login.html">Login</a>  
+                <a href="cadastros.html">Cadastro</a>
             </nav>
 
-     </header>
+        </header>
 
-      <!--CONTEUDO DA PAGINA DO SITE-->
+        <main>
+              <section class="sobre">
+                     <h2>Sobre a EduTech</h2>
+                     <p>A EduTech é uma escola de tecnologia focada em formação prática</p>
+                     <h3>Nossa Missão</h3>
+                     <p>Transformar vidas por meio da educação tecnológica</p>
+                     <h3>Nossos Valores</h3>
+                     <ul class="valores-lista">
+                        <li>Compromisso</li>
+                        <li>Inovação</li>
+                        <li>Transparência</li>
+                     </ul>
+              </section>
+        </main>
 
-     <footer> <!--RODAPE DO CORPO DO SITE-->
-        <p>©2026 EduTech. Todos os direitos reservados
-        <p><a href="contato.html">Entre em contato</a></p>
-     </footer>
+        <!-- Conteudo da Pagina do Site-->
 
-    </body> <!--CORPO DO SITE - CONTEUDO VISIVEL PARA TODOS-->
-       
+        <footer> <!-- Rodapé do site -->
+
+            <p>© 2026 Edu-Tech. Todos os direitos reservados.</p>
+            <p><a href="contato.html">Contato</a>  Entre em contato.</p>
+
+        </footer>
+
+
+    </body>
+
+
+
+
+
+
+
+
 
 </html>
