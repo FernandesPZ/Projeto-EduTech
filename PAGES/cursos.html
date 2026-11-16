@@ -1,10 +1,11 @@
 <!DOCTYPE html> <!-- Especifica o Tipo de Documento - HTML5 -->
 <html Lang="PT-BR">
     <head>  <!-- Cabeça do Site - Configurações e metadados -->
-        <title>Edu-Tech Formação em Tecnologia</title>
+        <title>Curso - EduTech</title>
         <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="../CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adapta o site para o tamanho da tela do dispositivo móvel-->
+        <meta name="description" content="Conhe;a os cursos da EduTech"> <!--Pequena ddiscrição do site para navegadores e compartilhamento-->
+         <link rel="stylesheet" href="../CSS/style.css"><!--Linka o código HTML com a pagína do CSS-->
 
     <body> <!-- Corpo do Site - Conteúdo visível -->
 
@@ -16,7 +17,7 @@
 
             <nav class="menu">
                 <a href="../index.html">Início</a>
-                <a href="cursos.html">Cursos</a>
+                <a href="cursos.html" class="ativo">Cursos</a>
                 <a href="sobre.html">Sobre</a> 
                 <a href="contato.html">Contato</a>     
                 <a href="login.html">Login</a> 
@@ -31,32 +32,34 @@
               <!-- Seção dos cursos -->
               <section>
                     <h2>Nossos Cursos</h2>
+                    <div class="cursos-grid"> <!--Container que o CSS usa para montar o grid dos cursos -->
 
                     <!-- CARDS DOS CURSOS -->
-                     <article class="cursos">
+                     <a href="PAGES/curso" class="cursos">
                         <img src="../IMAGES/informatica web.jpg" alt="Desenvolvimento WEB">
                         <h3>Desenvolvimento WEB</h3>
                         <p>Aprenda HTML, CSS, JS e práticas modernas
                             de desenvolvimento.
                         </p>
                         <strong>CH:</strong> 40h
-                     </article>
+                     </a >
+                    </div>
 
-                     <article class="cursos">
-                        <img src="../IMAGES/Informatoca basica.jpg web.jpg" alt="Informática Básica">
+                     <a href="PAGES/curso2" class="cursos">
+                        <img src="../IMAGES/Informatica basica.jpg" alt="Informática Básica">
                         <h3>Informática Básica</h3>
                         <p>Domine o uso do computador e aplicativos essenciais
                         </p>
                         <strong>CH:</strong> 30h
-                     </article>
+                     </a >
 
-                     <article class="cursos">
+                     <a href="PAGES/curso3" class="cursos">
                         <img src="../IMAGES/curso jpgps dogotais.jpg" alt="Jogos Digitais">
                         <h3>Jogos Digitais</h3>
                         <p>Aprenda a desenvolver jogos digitais desde o design até a programação.
                         </p>
                         <strong>CH:</strong> 60h
-                     </article>
+                     </a >
               </section>
             
         </main>
