@@ -55,7 +55,7 @@ nav.menu a:hover {
     color: #ff6a00; 
 }
 
-.ativo {
+nav.menu .ativo {
     color: darkorange;
     font-weight: bold;
 }
