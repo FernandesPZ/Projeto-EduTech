@@ -150,8 +150,8 @@ footer a {
 
 
 .curso:hover {
-    transform:translateY(-3px); /*Sobe um pouco*/
-    box-shadow: 0 6px 14px rgba(0,0,0.0.12); /* Projeção de sombra*/
+    transform:translateY(-3px); /*Sobe um pouco */
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);/*Projeção de sombra */
 }
 
 .valores-lista li {
@@ -164,16 +164,37 @@ footer a {
     margin: 15px 0; 
     border: 1px solid #ddd;
     border-radius: 8px;
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.2;
+
+}
+/* PÁGINA CURSOS */
+.curso {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.2s; /* Hover suave */
+    padding: 15px;
+    margin:15px;
+    border:1px solid #dddddd;
+    border-radius: 8px; 
+    text-align: center;
 }
 
 .curso img {
-    width:100%; /*Ocupa toda a largura do card */
-    height: 140px; /*Mostra a imagem INTEIRA*/
-    object-fit: contain;
-    background-color: #f5f5f5; 
-    border-radius: 6px;
-    margin-top: 10px;
+    width:100%; /* Ocupa toda a largura do card */
+    height: 140px; /* Altura padrão para todas imagens*/
+    object-fit: contain;/*Mostra a imagem INTEIRA */
+    background-color: #ffffff; /*Cor de fundo */
+    border-radius: 6px; /*Bordas arrendodas */
+    margin-top: 10px;/*Margem em cima da imagem */
 }
+
 input,  textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
