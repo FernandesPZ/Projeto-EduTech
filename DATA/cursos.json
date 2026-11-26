@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "titulo":"Desenvolvimento WEB",
+        "descricao":"Aprenda HTML, CSS, JS e práticas modernas de desnvolvimento",
+        "cargaHoraria":40,
+        "img":"../IMAGES/informatica web.jpg"
+    },
+
+ {
+        "id":2,
+        "titulo":"Informática Básica",
+        "descricao":"Domine o uso do computador e aplicativos essenciais",
+        "cargaHoraria":30,
+        "img":"../IMAGES/Informatica basica.jpg"
+    },
+
+     {
+        "id":3,
+        "titulo":"ogos Digitais",
+        "descricao":"Aprenda a desenvolver jogos digitais desde o design até a programação.",
+        "cargaHoraria":60,
+        "img":"../IMAGES/curso jpgps dogotais.jpg"
+    }
+]
+ 
